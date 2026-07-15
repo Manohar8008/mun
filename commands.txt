@@ -1,0 +1,6 @@
+.\setup.bat
+.venv\Scripts\activate
+python -m app.main text "lock the doors"
+pytest
+python run_dashboard.py
+python -m app.main stream
